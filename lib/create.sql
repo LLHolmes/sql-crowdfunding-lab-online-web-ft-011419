@@ -1,1 +1,2 @@
-CREATE TABLE project
+CREATE TABLE project.db
+  id
