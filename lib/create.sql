@@ -1,4 +1,4 @@
--- CREATE TABLE projects.db (
+-- CREATE TABLE projects (
 --   id INTEGER PRIMARY KEY,
 --   title TEXT,
 --   category TEXT,
@@ -7,7 +7,7 @@
 --   end_date TEXT
 -- );
 
--- CREATE TABLE users.db (
+-- CREATE TABLE users (
 --   id INTEGER PRIMARY KEY,
 --   name TEXT,
 --   age INTEGER
