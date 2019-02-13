@@ -1,3 +1,5 @@
+
+
 CREATE TABLE projects.db(
   id INTEGER PRIMARY KEY,
   title TEXT,
