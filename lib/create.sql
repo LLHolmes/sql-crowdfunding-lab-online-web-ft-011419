@@ -1,5 +1,3 @@
-sqlite3 projects.db
-
 CREATE TABLE projects.db(
   id INTEGER PRIMARY KEY,
   title TEXT,
