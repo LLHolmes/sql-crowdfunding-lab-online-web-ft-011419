@@ -1,4 +1,4 @@
-CREATE TABLE project.db(
+CREATE TABLE projects.db(
   id INTEGER PRIMARY KEY,
   title TEXT,
   category TEXT,
@@ -7,13 +7,13 @@ CREATE TABLE project.db(
   end_date TEXT
 );
 
-CREATE TABLE user.db(
+CREATE TABLE users.db(
   id INTEGER PRIMARY KEY,
   name TEXT,
   age INTEGER
 );
 
-CREATE TABLE pledge.db(
+CREATE TABLE pledges.db(
   id INTEGER PRIMARY KEY,
   user_id INTEGER
   project_id INTEGER
